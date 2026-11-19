@@ -9,3 +9,13 @@ out/
 
 case-study/real/results_real.json
 case-study/real/RESULTS_REAL.md
+
+# gama-secrets-guard
+.env
+*.token
+*.key
+*.pem
+tenants.json
+.git-credentials
+__pycache__/
+*.pyc
