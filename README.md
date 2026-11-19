@@ -1,6 +1,6 @@
 [![CI](https://github.com/renatoschust-dot/floor-copilot/actions/workflows/ci.yml/badge.svg)](https://github.com/renatoschust-dot/floor-copilot/actions/workflows/ci.yml)
 
-> **Live evidence dashboard:** https://gamai-io.github.io/demo/
+> **Live app:** none yet — run it locally (see Quickstart below). The 404 tailscale/pages links were removed on 2026-11-19.
 
 # Floor Copilot
 
@@ -21,7 +21,7 @@ not reconcile**. Every result carries a SHA-256 of the image and a stored eviden
 
 ## What works today (measured, not projected)
 
-**Live demo:** https://gamai.io
+**Run locally:** `uvicorn app:app --host 127.0.0.1 --port 8017` (no public deployment)
 
 Invoice photo → structured JSON → arithmetic gate → evidence record.
 
